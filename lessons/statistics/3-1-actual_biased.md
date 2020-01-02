@@ -19,3 +19,14 @@ thinkplot.Hist(biased_num_kd_hist)
 thinkplot.Config(xlabel='biased_num_kids', ylabel='count')
 ```
 ![](./Chap3_BiasedDistribution.png "BiasedDistribution")
+
+Finally i was able to plot both on a histogram:
+```python
+thinkplot.PrePlot(2)
+thinkplot.Pmfs([num_kd_pmf, biased_pmf])
+thinkplot.Show(xlabel='num_kids', ylabel='PMF')
+print("Actual Mean: ", num_kd_pmf.Mean())
+print("Observed Mean: ", biased_pmf.Mean())
+```
+
+![](./Chap3_PairedDistribution.png "PairedDistribution")
