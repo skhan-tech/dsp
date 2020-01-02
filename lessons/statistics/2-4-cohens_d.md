@@ -54,6 +54,7 @@ print(CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb))
 ```
   -0.088672927072602
 ```
+This outcome tells us that there is a minimal effect size when it comes to birth weight.
 
 ## <a name="section-c"></a>3.  How does the Cohen's *d* for weight comare to pregnancy length?
 ```python
@@ -62,3 +63,4 @@ print(CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb))
 ```
 0.028879044654449883
 ```
+This outcome tells us that there is a minimal effect size when it comes to pregnancy length
