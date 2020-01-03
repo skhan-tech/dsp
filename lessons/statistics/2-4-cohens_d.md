@@ -34,7 +34,7 @@ First children are lighter than subsequent.
 
 ## <a name="section-b"></a>2.  Computation of Cohen's *d* to quantify differences between groups
 
-Cohen's *d* allows us to understand the difference in standard deviations between to groups. The code for calculating this is below:
+Cohen's *d* allows us to understand the difference in standard deviations between two groups. The code for calculating this is below:
 
 ```python
 def CohenEffectSize(group1, group2):
